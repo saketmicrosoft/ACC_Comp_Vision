@@ -1,7 +1,7 @@
 ## INTRODUCTION 
 
-One of the most common challenges in AI domain ML workloads is the need of expensive GPU computes which are typically used for Deep Neural networks. The reason why this is challenging is because of availability of GPU based computes in all regions and this kind of dependencies can lead to delays in productionizing such workloads. Additionally, most edge type devices do not carry GPUs generally. 
-This notebook features sophisticated `Computer Vision` techniques that enable getting good enough ML model performance from niche healthcare datasets like in this case we are using a Kaggle competition data to detect `PENUMONIA`. We do a binary classification of Chest X-ray images with a high `Accuracy` & `Recall`/`Sensitivity`.
+One of the most common challenges in AI domain ML workloads is the need of expensive GPU computes which are typically used for Deep Neural networks. The reason why this is challenging is because of availability of GPU based computes in all regions and this kind of dependencies can lead to delays in productionizing such workloads. Additionally, most edge type devices do not carry GPUs generally. The second most common challenge is availability of huge amount of labeled data.
+This notebook features sophisticated `Computer Vision` techniques that enable getting good enough ML model performance from niche healthcare datasets like in this case we are using a Kaggle competition data to detect `PENUMONIA`. We do a binary classification of Chest X-ray images with a high `Accuracy` & `Recall`/`Sensitivity`. We are using CPU based Confidential compute and very small/nominal count of labeled data.
 
 ### Goal Statement
 The goal of this effort is to showcase the fact that near-ideal ML training and inferencing can be done using CPU based ACC Confidential computes like Confidential VMs and Confidential ACI.
