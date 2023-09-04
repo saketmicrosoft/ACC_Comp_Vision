@@ -26,4 +26,4 @@ Other datasets that also can be showcased as well:
 #### Conclusion
 
 This effort shows how to create effective enough ML models on Confidential Compute TEEs like CVMs & C-ACI without needing to use GPUs or high amounts of CPU computes. 
-Does not mean that we do not need GPUs in general, but there are some sophisticated techniques that can help with such scenarios as well.
+Does not mean that we do not need GPUs in general, but there are some sophisticated techniques that can help with such scenarios as well. The techniques do no require a lot of labeled data samples or Deep Neural networks as well for creating effective models.
