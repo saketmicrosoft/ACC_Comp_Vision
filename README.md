@@ -23,6 +23,8 @@ Other datasets that also can be showcased as well:
 - unzip the dataset
 - Run the code in the notebook `Azure Confidential Computing Computer Vision Training`
 
+`Note:` Aside from running this ML training on the given dataset, we can also add a step to do custom application encryption of the dataset & then use Confidential compute's `Secure Key Release` to decrypt the data as step 0 inside the TEE. (trusted execution environment)
+
 #### Conclusion
 
 This effort shows how to create effective enough ML models on Confidential Compute TEEs like CVMs & C-ACI without needing to use GPUs or high amounts of CPU computes. 
